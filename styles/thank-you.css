@@ -1,8 +1,8 @@
 /* ============================================================
    PR-003 · Why You're So Tired Every Afternoon (The Midday Reset Protocol) — Thank-You page
    DeReset brand system (BR-001): gold #f0c234 · cream #f5f0e8 · charcoal #1a1a1a, Poppins (body).
-   Vertical: Productivity. Product tone: deep slate-navy #1a2e3a, taken from the cover art.
-   Display font: Fraunces (600/700, italic 600), Georgia fallback.
+   Vertical: Health. Product tone: deep slate-navy #1a2e3a, taken from the cover art.
+   Display font: Lora (600/700, italic 600), Georgia fallback.
    ============================================================ */
 :root {
   --gold: #f0c234;
@@ -22,7 +22,7 @@
   --tone-soft: #b4c7d2;   /* italic/intro text on tone */
   --tone-muted: #93aab7;  /* small print on tone */
   --line: #e4dccb;
-  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-display: 'Lora', Georgia, 'Times New Roman', serif;
   --font-body: 'Poppins', 'Segoe UI', Arial, sans-serif;
   --radius: 12px;
   --shadow: 0 1px 2px rgba(26,26,26,.05), 0 12px 32px -12px rgba(26,26,26,.18);
