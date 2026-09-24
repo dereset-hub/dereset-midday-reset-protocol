@@ -229,3 +229,16 @@ section.tone-blue{
 .qa-center{text-align:center !important}
 .qa-m0{margin:0 !important}
 .qa-mt8{margin-top:8px !important}
+
+/* ============================================================
+   DESKTOP LAYOUT — platform addition 2026-09-24 (user-approved desktop widening).
+   Applies only at 1280px and above: phones and tablets are unchanged.
+   ============================================================ */
+@media (min-width: 1280px) {
+  html { font-size: 17.5px; }
+  .page { max-width: 960px; }
+}
+@media (min-width: 1440px) {
+  html { font-size: 18.5px; }
+  .page { max-width: 1020px; }
+}

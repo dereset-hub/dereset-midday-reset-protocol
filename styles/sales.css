@@ -415,3 +415,21 @@ section.tone-navy .accent-rule{
 .qa-fig-avatar{max-width:220px !important;margin-left:auto !important;margin-right:auto !important;border-radius:50% !important;overflow:hidden !important}
 .qa-round{border-radius:50% !important}
 .qa-mt8{margin-top:8px !important}
+
+/* ============================================================
+   DESKTOP LAYOUT — platform addition 2026-09-24 (user-approved desktop widening).
+   Applies only at 1280px and above: phones and tablets are unchanged.
+   The page widens and type scales up together, so body lines stay readable.
+   ============================================================ */
+@media (min-width: 1280px) {
+  html { font-size: 17.5px; }
+  .page { max-width: 1020px; }
+  header, main { padding-left: 56px; padding-right: 56px; }
+  .hero-heading { max-width: 820px; }
+  .qa-fig-narrow { max-width: 400px !important; }
+}
+@media (min-width: 1440px) {
+  html { font-size: 19px; }
+  .page { max-width: 1060px; }
+  header, main { padding-left: 64px; padding-right: 64px; }
+}
